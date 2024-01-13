@@ -1,0 +1,106 @@
+
+/* courier-prime-700italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Courier Prime';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/courier-prime-v9-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Courier Prime';
+    height: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header__bg-video {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.header__container {
+
+    width: 700px;
+
+}
+
+.header__title {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: red;
+}
+
+.header__description {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.header__btns {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.btn {
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
